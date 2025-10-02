@@ -1,6 +1,6 @@
 # **Foundry Citadel Platform:** Scalable **AI Landing Zone** with Governance, Observability & Rapid Development
 
-AI Foundry **Citadel** is a solution accelerator designed as a **supplemental AI landing zone** that integrates seamlessly with your Azure environment. It provides a **secure, scalable foundation** for running AI applications and agents in production – with **unified governance**, **end-to-end observability**, and tools to **accelerate development**. Citadel delivers a **pre-configured reference architecture** (aligned to Azure’s Cloud Adoption and Well-Architected Frameworks) that can be deployed with one click and includes ready-made code, templates, and documentation following Microsoft’s best practices. This comprehensive approach helps organisations adopt AI **responsibly and efficiently**, ensuring that advanced AI agents can be developed **quickly** while remaining **well-managed** and **compliant** with enterprise requirements.
+Foundry **Citadel** Platform is a solution accelerator designed as a **supplemental AI landing zone** that integrates seamlessly with your Azure environment. It provides a **secure, scalable foundation** for running AI applications and agents in production – with **unified governance**, **end-to-end observability**, and tools to **accelerate development**. Citadel delivers a **pre-configured reference architecture** (aligned to Azure’s Cloud Adoption and Well-Architected Frameworks) that can be deployed with one click and includes ready-made code, templates, and documentation following Microsoft’s best practices. This comprehensive approach helps organisations adopt AI **responsibly and efficiently**, ensuring that advanced AI agents can be developed **quickly** while remaining **well-managed** and **compliant** with enterprise requirements.
 
 > ### Citadel Adoption Signals  
 > _Enterprise teams highlight these blockers and enablers for scaling AI responsibly._
@@ -11,7 +11,7 @@ AI Foundry **Citadel** is a solution accelerator designed as a **supplemental AI
 
 > 🧩 _Citadel turns these pain points into platform strengths—governed access, transparent consumption, defensible guardrails, and a shared catalog of reusable AI capabilities._
 
-These challenges highlight why **Citadel’s capabilities** are crucial. **AI Foundry Citadel** focuses on **three key pillars** – **Governance & Security**, **Observability & Compliance**, and **AI Development Velocity** – to address these concerns end-to-end. Below, we outline each pillar and the core capabilities provided, with architecture components and features that ensure enterprise-grade AI deployments:
+These challenges highlight why **Citadel’s capabilities** are crucial. **Foundry Citadel Platform** focuses on **three key pillars** – **Governance & Security**, **Observability & Compliance**, and **AI Development Velocity** – to address these concerns end-to-end. Below, we outline each pillar and the core capabilities provided, with architecture components and features that ensure enterprise-grade AI deployments:
 
 ***
 
