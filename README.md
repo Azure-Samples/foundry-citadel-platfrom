@@ -429,9 +429,18 @@ The blueprint supports both stand alone **greenfield deployments** and **integra
 - **Create New**: Deploy all components as new resources with optimized defaults
 - **Reuse Existing**: Integrate with existing virtual networks, DNS zones, and shared services
 - **Hybrid Approach**: Mix of new and existing resources based on organizational requirements
-- **Foundry Citadel Platform Integration**: Seamless integration with a centralized governance & security landing zone part of Foundry Citadel Platform guidance.
 
 This enterprise-ready blueprint provides the foundation for building, deploying, and scaling AI agent solutions while maintaining the highest standards of security, compliance, and operational excellence.
+
+### **Citadel Governance Hub Integration** – *Automated Alignment Between Agents & Guardrails*
+
+Citadel streamlines the handshake between each **Citadel Agent Spoke** and the central **Citadel Governance Hub**, ensuring that every agent inherits the platform’s security, policy, and observability standards from day one. Through a fully automatable onboarding flow, teams can codify their integration in source control and wire it directly into CI/CD pipelines—enabling repeatable deployments, rapid environment cloning, and verifiable governance drift checks.
+
+*   **AI Access Contract:** Declares the governed dependencies an agent needs—LLMs, AI services, tools (MCP), and reusable agents—along with the precise access policies (model selection, capacity, regions, safety requirements). When automated, this contract guarantees consistent consumption guardrails across environments and simplifies approvals by making entitlements explicit.
+*   **AI Publish Contract:** Describes the tools and agents a spoke exposes back to the hub, including the publishing rules, ownership metadata, and security posture. Automation turns this into a predictable cataloging workflow, accelerating time-to-discovery, enforcing compliance gates, and keeping the enterprise AI registry continuously in sync.
+
+By treating governance onboarding as code, organisations gain **audit-ready traceability**, **faster release cycles**, and **reduced manual effort**, while ensuring every agent remains within the Citadel’s unified policy perimeter.
+
 
 
 ## **Conclusion & Next Steps**
