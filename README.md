@@ -1,4 +1,5 @@
-# **Foundry Citadel Platform:** Scalable **AI Landing Zone** with Governance, Observability & Rapid Development
+# Foundry Citadel Platform
+>*Scalable **AI Landing Zone** with Governance, Observability & Rapid Development*
 
 Foundry **Citadel** Platform is a solution accelerator designed as a **supplemental AI landing zone** that integrates seamlessly with your Azure environment. It provides a **secure, scalable foundation** for running AI applications and agents in production – with **unified governance**, **end-to-end observability**, and tools to **accelerate development**. Citadel delivers a **pre-configured reference architecture** (aligned to Azure’s Cloud Adoption and Well-Architected Frameworks) that can be deployed with one click and includes ready-made code, templates, and documentation following Microsoft’s best practices. This comprehensive approach helps organisations adopt AI **responsibly and efficiently**, ensuring that advanced AI agents can be developed **quickly** while remaining **well-managed** and **compliant** with enterprise requirements.
 
@@ -338,18 +339,18 @@ This elevates AI consumption from ad hoc experimentation to a scalable, auditabl
 
 | Component | Purpose | Enterprise Features |
 |-----------|---------|-------------------|
-| **🚪 API Management** | Unified AI gateway | LLM governance, AI resliency, AI registry gateway |
+| **🚪 API Management** | Unified AI gateway | LLM governance, AI resiliency, AI registry gateway |
 | **📘 API Center** | Universal AI Registry | Discovery of available AI tools, agents and AI services for 1st and 3rd party |
 | **🔍 AI Foundry** | Platform Observability and Compliance | Platform AI Evaluations & Compliance reports |
-| **📊 Log Analytics Workspace** | LLM Logs, metrics & audits | scalable enterprise telemtry ingestion and storage |
-| **📊 Application Insights** | Platfrom monitoring & analytics | performance dashboards, automated alerts |
+| **📊 Log Analytics Workspace** | LLM Logs, metrics & audits | scalable enterprise telemetry ingestion and storage |
+| **📊 Application Insights** | Platform monitoring & analytics | performance dashboards, automated alerts |
 | **📨 Event Hub** | Usage data streaming & processing | Usage streaming, custom logging |
 | **🛡️ Azure Content Safety** | Centralized LLM protection | Prompt Shield and Content Safety protections |
 | **💳 Azure Language Service** | PII entity detection | Natural language based PII entity detection, anonymization |
 | **🗄️ Cosmos DB** | Usage analytics & cost allocation | Long term storage of usage, automatic scaling |
-| **⚡ Logic App** | Event processing & data transformation | Workflow-based processing of injested usage/logs & AI Eval workflow |
+| **⚡ Logic App** | Event processing & data transformation | Workflow-based processing of ingested usage/logs & AI Eval workflow |
 | **🔐 Managed Identity** | Zero-credential authentication | Secure service-to-service communication |
-| **🔗 Virtual Network** | Private connectivity & isolation | BYOVNET support, private endpoints |
+| **🔗 Virtual Network** | Private connectivity & isolation | BYO-VNET support, private endpoints |
 | **🤖 Azure OpenAI (OPTIONAL)** | Multi-region OpenAI deployments (3 regions) |  GPT-models, Realtime API, fully private |
 
 ***
@@ -359,7 +360,7 @@ This elevates AI consumption from ad hoc experimentation to a scalable, auditabl
 The **Citadel Agent Spoke (CAS)** provides a comprehensive, enterprise-ready infrastructure foundation for deploying and scaling AI agent workloads on Azure. Built on Azure Verified Modules (AVM), CAS delivers a secure, network-isolated environment optimized for generative AI applications and agent services per domain or workload. The architecture centers around Azure AI Foundry with integrated agent capabilities, supported by a full suite of AI services, data stores, and enterprise-grade security controls.
 
 > **🔗 Explore the Citadel Agent Spoke Repo:**  
-> For comprehensive guidance on deploying and operating Citadel Agent Spokes (CAS)—including architecture, deployment templates, and enterprise best practices—visit the official [**Citadel Agent Spoke repository**](https://github.com/mohamedsaif/bicep-avm-ptn-aiml-landing-zone/tree/main).  
+> For comprehensive guidance on deploying and operating Citadel Agent Spokes (CAS)—including architecture, deployment templates, and enterprise best practices—visit the official [**Citadel Agent Spoke repository**](https://github.com/Azure/AI-Landing-Zones).  
 > <br>
 > This resource provides step-by-step instructions, reference implementations, and operational insights to help you rapidly build, scale, and manage AI agent solutions in a secure, governed Azure environment.
 
@@ -434,7 +435,7 @@ This enterprise-ready blueprint provides the foundation for building, deploying,
 
 ### **Citadel Governance Hub Integration** – *Automated Alignment Between Agents & Guardrails*
 
-Citadel streamlines the handshake between each **Citadel Agent Spoke** and the central **Citadel Governance Hub**, ensuring that every agent inherits the platform’s security, policy, and observability standards from day one. Through a fully automatable onboarding flow, teams can codify their integration in source control and wire it directly into CI/CD pipelines—enabling repeatable deployments, rapid environment cloning, and verifiable governance drift checks.
+Citadel streamlines the handshake between each **Citadel Agent Spoke** and the central **Citadel Governance Hub**, ensuring that every agent inherits the platform’s security, policy, and observability standards from day one. Through a fully automated onboarding flow, teams can codify their integration in source control and wire it directly into CI/CD pipelines—enabling repeatable deployments, rapid environment cloning, and verifiable governance drift checks.
 
 *   **AI Access Contract:** Declares the governed dependencies an agent needs—LLMs, AI services, tools (MCP), and reusable agents—along with the precise access policies (model selection, capacity, regions, safety requirements). When automated, this contract guarantees consistent consumption guardrails across environments and simplifies approvals by making entitlements explicit.
 *   **AI Publish Contract:** Describes the tools and agents a spoke exposes back to the hub, including the publishing rules, ownership metadata, and security posture. Automation turns this into a predictable cataloging workflow, accelerating time-to-discovery, enforcing compliance gates, and keeping the enterprise AI registry continuously in sync.
